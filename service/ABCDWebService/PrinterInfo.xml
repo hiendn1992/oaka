@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BSWXmlManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--エフ用プリンター情報-->
+  <PC_PRINT>
+    <!-- PCプリンターバーコードと名称 -->
+    <A0001>EPSON LP-7900</A0001>
+    <A0002>FinePrint</A0002>
+  </PC_PRINT>
+
+</BSWXmlManager>

@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37CE198C-1D86-4FAD-8407-CB1940027D27}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>jp.co.ait.ABCDBC.frm_Login001</StartupObject>
+    <RootNamespace>jp.co.ait.ABCDBC</RootNamespace>
+    <AssemblyName>ABCDBC</AssemblyName>
+    <ProjectTypeGuids>{68B1623D-7FB9-47D8-8664-7ECEA3297D4F};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.00</OSVersion>
+    <MyType>WindowsForms</MyType>
+    <DeployDirSuffix>LWHBC</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <OptionStrict>On</OptionStrict>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>main%281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>ABCDBC.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>ABCDBC.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="btCommLibNet, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\btCommLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="btFileLibNet, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\btFileLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="btLibDefNet, Version=1.5.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\btLibDefNet.dll</HintPath>
+    </Reference>
+    <Reference Include="btScanLibNet, Version=1.5.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\btScanLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="btSysLibNet, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\btSysLibNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windowsce.Forms" />
+    <Reference Include="System, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL" />
+    <Reference Include="System.Data, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web.Services" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObject\BarcodeObj.vb" />
+    <Compile Include="BusinessObject\BCLoginInfo.vb" />
+    <Compile Include="Common\BCCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\BCConst.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\BCLoginManager.vb" />
+    <Compile Include="Common\BCScanner.vb" />
+    <Compile Include="Common\MessageListener.vb" />
+    <Compile Include="Common\MyCertificateValidation.vb" />
+    <Compile Include="MENU\frm_Login001.Designer.vb">
+      <DependentUpon>frm_Login001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU\frm_Login001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU\frm_Menu001.Designer.vb">
+      <DependentUpon>frm_Menu001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU\frm_Menu001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU\frm_Menu002.Designer.vb">
+      <DependentUpon>frm_Menu002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU\frm_Menu002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU\frm_Menu003.Designer.vb">
+      <DependentUpon>frm_Menu003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU\frm_Menu003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU\frm_ScanErr.Designer.vb">
+      <DependentUpon>frm_ScanErr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU\frm_ScanErr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG000.Designer.vb">
+      <DependentUpon>frm_IMPFG000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG001.Designer.vb">
+      <DependentUpon>frm_IMPFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG002.Designer.vb">
+      <DependentUpon>frm_IMPFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG003.Designer.vb">
+      <DependentUpon>frm_IMPFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_IMPFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_REJFG001.Designer.vb">
+      <DependentUpon>frm_REJFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_REJFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_REJFG002.Designer.vb">
+      <DependentUpon>frm_REJFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_REJFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_REJFG003.Designer.vb">
+      <DependentUpon>frm_REJFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_REJFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SDFG001.Designer.vb">
+      <DependentUpon>frm_SDFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SDFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SDFG002.Designer.vb">
+      <DependentUpon>frm_SDFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SDFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SDFG003.Designer.vb">
+      <DependentUpon>frm_SDFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SDFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG001.Designer.vb">
+      <DependentUpon>frm_SHIPFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG002.Designer.vb">
+      <DependentUpon>frm_SHIPFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG003.Designer.vb">
+      <DependentUpon>frm_SHIPFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG004.Designer.vb">
+      <DependentUpon>frm_SHIPFG004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG005.Designer.vb">
+      <DependentUpon>frm_SHIPFG005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SHIPFG005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SMFG001.Designer.vb">
+      <DependentUpon>frm_SMFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SMFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SMFG002.Designer.vb">
+      <DependentUpon>frm_SMFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SMFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SMFG003.Designer.vb">
+      <DependentUpon>frm_SMFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SMFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SMFG004.Designer.vb">
+      <DependentUpon>frm_SMFG004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SMFG004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SMFG005.Designer.vb">
+      <DependentUpon>frm_SMFG005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SMFG005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SRFG001.Designer.vb">
+      <DependentUpon>frm_SRFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SRFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SRFG002.Designer.vb">
+      <DependentUpon>frm_SRFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SRFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SRFG003.Designer.vb">
+      <DependentUpon>frm_SRFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SRFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SRFG004.Designer.vb">
+      <DependentUpon>frm_SRFG004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SRFG004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_SRFG005.Designer.vb">
+      <DependentUpon>frm_SRFG005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_SRFG005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG001.Designer.vb">
+      <DependentUpon>frm_STOCKTKFG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG002.Designer.vb">
+      <DependentUpon>frm_STOCKTKFG002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG003.Designer.vb">
+      <DependentUpon>frm_STOCKTKFG003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG004.Designer.vb">
+      <DependentUpon>frm_STOCKTKFG004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG005.Designer.vb">
+      <DependentUpon>frm_STOCKTKFG005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\frm_STOCKTKFG005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\ReturnW900.Designer.vb">
+      <DependentUpon>ReturnW900.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\ReturnW900.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W830\ReturnW900OK.Designer.vb">
+      <DependentUpon>ReturnW900OK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W830\ReturnW900OK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_EXP001.Designer.vb">
+      <DependentUpon>frm_EXP001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_EXP001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_EXP002.Designer.vb">
+      <DependentUpon>frm_EXP002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_EXP002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_EXP003.Designer.vb">
+      <DependentUpon>frm_EXP003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_EXP003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_IMP001.Designer.vb">
+      <DependentUpon>frm_IMP001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_IMP001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_IMP002.Designer.vb">
+      <DependentUpon>frm_IMP002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_IMP002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_IMP003.Designer.vb">
+      <DependentUpon>frm_IMP003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_IMP003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_REJ001.Designer.vb">
+      <DependentUpon>frm_REJ001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_REJ001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_REJ002.Designer.vb">
+      <DependentUpon>frm_REJ002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_REJ002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_REJ003.Designer.vb">
+      <DependentUpon>frm_REJ003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_REJ003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_RETR001.Designer.vb">
+      <DependentUpon>frm_RETR001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_RETR001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_RETR002.Designer.vb">
+      <DependentUpon>frm_RETR002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_RETR002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_RETR003.Designer.vb">
+      <DependentUpon>frm_RETR003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_RETR003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_RETR004.Designer.vb">
+      <DependentUpon>frm_RETR004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_RETR004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_RETR005.Designer.vb">
+      <DependentUpon>frm_RETR005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_RETR005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_SDQC001.Designer.vb">
+      <DependentUpon>frm_SDQC001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_SDQC001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_SDQC002.Designer.vb">
+      <DependentUpon>frm_SDQC002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_SDQC002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_SDQC003.Designer.vb">
+      <DependentUpon>frm_SDQC003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_SDQC003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK001.Designer.vb">
+      <DependentUpon>frm_STOCKTK001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK002.Designer.vb">
+      <DependentUpon>frm_STOCKTK002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK003.Designer.vb">
+      <DependentUpon>frm_STOCKTK003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK004.Designer.vb">
+      <DependentUpon>frm_STOCKTK004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="W900\frm_STOCKTK004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web References\WebService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MENU\frm_Login001.resx">
+      <DependentUpon>frm_Login001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU\frm_Menu001.resx">
+      <DependentUpon>frm_Menu001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU\frm_Menu002.resx">
+      <DependentUpon>frm_Menu002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU\frm_Menu003.resx">
+      <DependentUpon>frm_Menu003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU\frm_ScanErr.resx">
+      <DependentUpon>frm_ScanErr.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_IMPFG000.resx">
+      <DependentUpon>frm_IMPFG000.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_IMPFG001.resx">
+      <DependentUpon>frm_IMPFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_IMPFG002.resx">
+      <DependentUpon>frm_IMPFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_IMPFG003.resx">
+      <DependentUpon>frm_IMPFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_REJFG001.resx">
+      <DependentUpon>frm_REJFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_REJFG002.resx">
+      <DependentUpon>frm_REJFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_REJFG003.resx">
+      <DependentUpon>frm_REJFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SDFG001.resx">
+      <DependentUpon>frm_SDFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SDFG002.resx">
+      <DependentUpon>frm_SDFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SDFG003.resx">
+      <DependentUpon>frm_SDFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SHIPFG001.resx">
+      <DependentUpon>frm_SHIPFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SHIPFG002.resx">
+      <DependentUpon>frm_SHIPFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SHIPFG003.resx">
+      <DependentUpon>frm_SHIPFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SHIPFG004.resx">
+      <DependentUpon>frm_SHIPFG004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SHIPFG005.resx">
+      <DependentUpon>frm_SHIPFG005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SMFG001.resx">
+      <DependentUpon>frm_SMFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SMFG002.resx">
+      <DependentUpon>frm_SMFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SMFG003.resx">
+      <DependentUpon>frm_SMFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SMFG004.resx">
+      <DependentUpon>frm_SMFG004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SMFG005.resx">
+      <DependentUpon>frm_SMFG005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SRFG001.resx">
+      <DependentUpon>frm_SRFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SRFG002.resx">
+      <DependentUpon>frm_SRFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SRFG003.resx">
+      <DependentUpon>frm_SRFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SRFG004.resx">
+      <DependentUpon>frm_SRFG004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_SRFG005.resx">
+      <DependentUpon>frm_SRFG005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_STOCKTKFG001.resx">
+      <DependentUpon>frm_STOCKTKFG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_STOCKTKFG002.resx">
+      <DependentUpon>frm_STOCKTKFG002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_STOCKTKFG003.resx">
+      <DependentUpon>frm_STOCKTKFG003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_STOCKTKFG004.resx">
+      <DependentUpon>frm_STOCKTKFG004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\frm_STOCKTKFG005.resx">
+      <DependentUpon>frm_STOCKTKFG005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\ReturnW900.resx">
+      <DependentUpon>ReturnW900.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W830\ReturnW900OK.resx">
+      <DependentUpon>ReturnW900OK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_EXP001.resx">
+      <DependentUpon>frm_EXP001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_EXP002.resx">
+      <DependentUpon>frm_EXP002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_EXP003.resx">
+      <DependentUpon>frm_EXP003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_IMP001.resx">
+      <DependentUpon>frm_IMP001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_IMP002.resx">
+      <DependentUpon>frm_IMP002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_IMP003.resx">
+      <DependentUpon>frm_IMP003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_REJ001.resx">
+      <DependentUpon>frm_REJ001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_REJ002.resx">
+      <DependentUpon>frm_REJ002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_REJ003.resx">
+      <DependentUpon>frm_REJ003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_RETR001.resx">
+      <DependentUpon>frm_RETR001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_RETR002.resx">
+      <DependentUpon>frm_RETR002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_RETR003.resx">
+      <DependentUpon>frm_RETR003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_RETR004.resx">
+      <DependentUpon>frm_RETR004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_RETR005.resx">
+      <DependentUpon>frm_RETR005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_SDQC001.resx">
+      <DependentUpon>frm_SDQC001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_SDQC002.resx">
+      <DependentUpon>frm_SDQC002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_SDQC003.resx">
+      <DependentUpon>frm_SDQC003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_STOCKTK001.resx">
+      <DependentUpon>frm_STOCKTK001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_STOCKTK002.resx">
+      <DependentUpon>frm_STOCKTK002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_STOCKTK003.resx">
+      <DependentUpon>frm_STOCKTK003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W900\frm_STOCKTK004.resx">
+      <DependentUpon>frm_STOCKTK004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ABCDBC_HT.xml" />
+    <Content Include="ABCD_SV.xml" />
+    <Content Include="Icon\main%281%29.ico" />
+    <Content Include="Libs\btCommLibNet.dll" />
+    <Content Include="Libs\btFileLibNet.dll" />
+    <Content Include="Libs\btLibDefNet.dll" />
+    <Content Include="Libs\btScanLibNet.dll" />
+    <Content Include="Libs\btSysLibNet.dll" />
+    <Content Include="main%281%29.ico" />
+    <Content Include="Message.xml" />
+    <Content Include="PrinterInfo.xml" />
+    <None Include="Web References\WebService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MENU\vssver2.scc" />
+    <None Include="My Project\vssver2.scc" />
+    <None Include="obj\Release\ResolveAssemblyReference.cache" />
+    <None Include="vssver2.scc" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://pc201506009/Service.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>https://pc201506009/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\ABCDBCCommon.vbproj">
+      <Project>{8621438B-C690-413A-87D4-A395ADACB1B4}</Project>
+      <Name>ABCDBCCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F184B08F-C81C-45F6-A57F-5ABD9991F28F}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+</Project>

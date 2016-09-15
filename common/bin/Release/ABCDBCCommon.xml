@@ -1,0 +1,839 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ABCDBCCommon
+</name>
+</assembly>
+<members>
+<member name="M:jp.co.ait.common.ABCDBCMessage.GetMessage(System.String)">
+	<summary>
+ ﾒｯｾｰｼﾞ情報を取得します
+ </summary>
+	<param name="msgId">ﾒｯｾｰｼﾞID</param>
+	<returns>ﾒｯｾｰｼﾞ 存在しない場合:Nothing</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCMessage.GetMessage(System.String,System.String[])">
+	<summary>
+ ﾒｯｾｰｼﾞ情報を取得します
+ </summary>
+	<param name="msgId">ﾒｯｾｰｼﾞID</param>
+	<param name="param">付加文言</param>
+	<returns>ﾒｯｾｰｼﾞ 存在しない場合:Nothing</returns>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm.ScreenMode.None">
+	<summary>指定なし</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm.ScreenMode.Haraidashi">
+	<summary>払出</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm.ScreenMode.Zaiko">
+	<summary>在庫</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm.ScreenMode.Ukeire">
+	<summary>受入</summary>
+</member><member name="T:jp.co.ait.common.forms.ABCDBCForm.ScreenMode">
+	<summary>
+ ﾌｫｰﾑﾓｰﾄﾞ
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm._motoScreenID">
+	<summary>遷移元画面ID</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm._screenID">
+	<summary>ﾌｫｰﾑID</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm._screenName">
+	<summary>ﾌｫｰﾑ名称</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm._mode">
+	<summary>ﾌｫｰﾑﾓｰﾄﾞなし</summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCForm._param">
+	<summary>画面用ﾊﾟﾗﾒｰﾀ引数</summary>
+</member><member name="E:jp.co.ait.common.forms.ABCDBCForm.TitleClick">
+	<summary>
+ ﾕｰｻﾞｲﾍﾞﾝﾄ定義
+ </summary>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCForm.ScreenName">
+	<summary>
+ ﾌｫｰﾑ名称の設定と取得
+ </summary>
+	<value>ﾌｫｰﾑ名称の設定値</value>
+	<returns>ﾌｫｰﾑ名称の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCForm.ScreenID">
+	<summary>
+ ﾌｫｰﾑIDの設定と取得
+ </summary>
+	<value>ﾌｫｰﾑIDの設定値</value>
+	<returns>ﾌｫｰﾑIDの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCForm.Mode">
+	<summary>
+ ﾌｫｰﾑﾓｰﾄﾞの設定と取得
+ </summary>
+	<value>ﾌｫｰﾑﾓｰﾄﾞの設定値</value>
+	<returns>ﾌｫｰﾑﾓｰﾄﾞの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCForm.MotoScreenID">
+	<summary>
+ 遷移元ﾌｫｰﾑIDの設定と取得
+ </summary>
+	<value>遷移元ﾌｫｰﾑIDの設定値</value>
+	<returns>遷移元ﾌｫｰﾑIDの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCForm.Param">
+	<summary>
+ 画面用ﾊﾟﾗﾒｰﾀ引数の設定と取得
+ </summary>
+	<value>画面用ﾊﾟﾗﾒｰﾀ引数の設定値</value>
+	<returns>画面用ﾊﾟﾗﾒｰﾀ引数の戻り値</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.SetTitleName(System.String)">
+	<summary>
+ ﾀｲﾄﾙﾊﾟﾈﾙにﾌｫｰﾑ名称を設定
+ </summary>
+	<param name="strTitleName">ﾌｫｰﾑ名称</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.GetMessage(System.String,System.String[])">
+	<summary>
+ ﾒｯｾｰｼﾞの取得
+ </summary>
+	<param name="msgID">ﾒｯｾｰｼﾞID</param>
+	<param name="param">置き換える内容配列</param>
+	<returns>ﾒｯｾｰｼﾞ内容</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.ShowMessageForm(System.String,System.String,System.Int32,System.String[],System.Boolean)">
+	<summary>
+ ﾒｯｾｰｼﾞﾌｫｰﾑを表示
+ </summary>
+	<param name="msgID">ﾒｯｾｰｼﾞID</param>
+	<param name="formTitle">ﾌｫｰﾑ名称</param>
+	<param name="warnningFlag">置き換える内容配列</param>
+	<param name="param">置き換える内容配列</param>
+	<param name="buttonVisible">ボタン表示/非表示</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.ShowSystemMessageForm">
+	<summary>
+ ｼｽﾃﾑｴﾗｰをｴﾗｰﾌｫｰﾑに表示する
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.SetControlEnabled(System.Boolean)">
+	<summary>
+ 画面ｺﾝﾄﾛｰﾙ使用可否の一括設定
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.SetControlEnabled(System.Boolean,System.Windows.Forms.Control)">
+	<summary>
+ 画面ｺﾝﾄﾛｰﾙ使用可否の一括設定
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.PadRightString(System.String,System.Int32)">
+	<summary>
+ 指定バイト数文字で返却
+ </summary>
+	<param name="expression">対象文字列</param>
+	<param name="cutLength">必要切り出し文字長さ</param>
+	<returns>不足分に半角ｽﾍﾟｰｽを増やす</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.GetLenString(System.String)">
+	<summary>
+ 文字列のバイト数計算
+ 与えられた文字列のバイト数を返す。
+ </summary>
+	<param name="expression">文字列</param>
+	<returns>文字列のバイト数</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.WriteEventStartLog(System.String,jp.co.ait.common.ABCDBCLog.LogLevel)">
+	<summary>
+ ｲﾍﾞﾝﾄの開始ﾛｸﾞ
+ </summary>
+	<param name="eventName">ｲﾍﾞﾝﾄ名称</param>
+	<param name="logLevel">ﾛｸﾞﾗﾍﾞﾙ</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.WriteEventEndLog(System.String,jp.co.ait.common.ABCDBCLog.LogLevel)">
+	<summary>
+ ｲﾍﾞﾝﾄの終了ﾛｸﾞ
+ </summary>
+	<param name="eventName">ｲﾍﾞﾝﾄ名称</param>
+	<param name="logLevel">ﾛｸﾞﾗﾍﾞﾙ</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.#ctor">
+	<summary>
+ ｺﾝｽﾄﾗｸﾀ
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.#ctor(System.String)">
+	<summary>
+ ｺﾝｽﾄﾗｸﾀ
+ </summary>
+	<param name="strFormName">ﾌｫｰﾑ名称</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.pnlClick(System.Object,System.EventArgs)">
+	<summary>
+ ﾌｫｰﾑﾀｲﾄﾙｸﾘｯｸｲﾍﾞﾝﾄの作成
+ </summary>
+	<param name="sender">ﾊﾟﾈﾙｺﾝﾄﾛｰﾙ</param>
+	<param name="e">ｲﾍﾞﾝﾄ情報</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCForm.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Barcode Call Back Instant
+ </summary>
+	<param name="HWnd">Microsoft.WindowsCE.Forms.Message HWnd</param>
+	<param name="LParam">Microsoft.WindowsCE.Forms.Message LParam</param>
+	<param name="Msg">Microsoft.WindowsCE.Forms.Message Msg</param>
+	<param name="Result">Microsoft.WindowsCE.Forms.Message Result</param>
+	<param name="WParam">Microsoft.WindowsCE.Forms.Message WParam</param>
+	<remarks></remarks>
+</member><member name="T:jp.co.ait.common.forms.ABCDBCForm">
+	<summary>
+ 共通ﾌｫｰﾑ基盤ｸﾗｽ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.APP_CONFIG_FILE">
+	<summary>初期値定義用XMLファイル名称</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_DUMP">
+	<summary>ログ出力レベル定数　DUMP</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_DEBUG">
+	<summary>ログ出力レベル定数　DEBUG</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_INFOMATION">
+	<summary>ログ出力レベル定数　INFOMATION</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_TRACE">
+	<summary>ログ出力レベル定数　TRACE</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_OPERATION">
+	<summary>ログ出力レベル定数　OPERATION</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_WARNING">
+	<summary>ログ出力レベル定数　WARNING</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LOG_LEVEL_ERROR">
+	<summary>ログ出力レベル定数　ERROR</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.ORA_CON_EXCEPTION">
+	<summary>ネットワークの接続　EXCEPTION</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.TITLE_ERROR">
+	<summary>ﾀｲﾄﾙ名称ｴﾗｰ</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL0">
+	<summary> 色ﾚﾍﾞﾙなし </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL1">
+	<summary> 色ﾚﾍﾞﾙ 1 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL2">
+	<summary> 色ﾚﾍﾞﾙ 2 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL3">
+	<summary> 色ﾚﾍﾞﾙ 3 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL4">
+	<summary> 色ﾚﾍﾞﾙ 4 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL5">
+	<summary> 色ﾚﾍﾞﾙ 5 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL6">
+	<summary> 色ﾚﾍﾞﾙ 6 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL7">
+	<summary> 色ﾚﾍﾞﾙ 7 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL8">
+	<summary> 色ﾚﾍﾞﾙ 8 </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.userColorLevel.LEVEL9">
+	<summary> 色ﾚﾍﾞﾙ 9 </summary>
+</member><member name="T:jp.co.ait.common.ABCDBCConst.userColorLevel">
+	<summary>
+ 色ﾚﾍﾞﾙ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_BACKCOLOR_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙ背景色ﾘｽﾄ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_FONTCOLOR_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙにあるﾗﾍﾞﾙﾌｫﾝﾄ色ﾘｽﾄ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_BORDERCOLOR_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙ境界線色ﾘｽﾄ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_BORDERWIDTH_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙ境界線幅ﾘｽﾄ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_LOCK_BACKCOLOR_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙ背景色ﾘｽﾄ(ﾛｯｸ時)
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCConst.LST_LOCK_FONTCOLOR_LEVEL">
+	<summary>
+ ﾊﾟﾈﾙにあるﾗﾍﾞﾙﾌｫﾝﾄ色ﾘｽﾄ(ﾛｯｸ時)
+ </summary>
+</member><member name="T:jp.co.ait.common.ABCDBCConst">
+	<summary>
+ 定数クラス
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLoginManager._LoginInfo">
+	<summary>ログイン情報</summary>
+</member><member name="M:jp.co.ait.common.ABCDBCLoginManager.IsLogin">
+	<summary>
+ ログイン状態
+ </summary>
+	<returns>True：ログイン済み　False：未ログイン</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCLoginManager.GetLoginInfo">
+	<summary>
+ ログイン情報の取得
+ </summary>
+	<returns>ログイン情報</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCLoginManager.CreateLoginInfo(System.String)">
+	<summary>
+ ログイン情報クラスの作成
+ </summary>
+	<param name="UserID">登録したユーザID</param>
+	<returns>ログイン情報クラスインスタンス</returns>
+</member><member name="T:jp.co.ait.common.ABCDBCLoginManager">
+	<summary>
+ ログイン情報クラス
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLoginInfo._userID">
+	<summary>ログインユーザID</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLoginInfo._userName">
+	<summary>ログインユーザ名称</summary>
+</member><member name="M:jp.co.ait.common.ABCDBCLoginInfo.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCLoginInfo.#ctor(System.String)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="userID">ログインユーザID</param>
+</member><member name="P:jp.co.ait.common.ABCDBCLoginInfo.UserID">
+	<summary>
+ ログインユーザIDの設定と取得
+ </summary>
+	<value>ログインユーザIDの設定値</value>
+	<returns>ログインユーザIDの戻り値</returns>
+</member><member name="P:jp.co.ait.common.ABCDBCLoginInfo.UserName">
+	<summary>
+ ログインユーザ名称の設定と取得
+ </summary>
+	<value>ログインユーザ名称の設定値</value>
+	<returns>ログインユーザ名称の戻り値</returns>
+</member><member name="F:frm_LWHBC000F._errorMsg">
+	<summary>エラー内容</summary>
+</member><member name="F:frm_LWHBC000F._warningFlag">
+	<summary>ワーニングフラグ</summary>
+</member><member name="F:frm_LWHBC000F._buttonVisible">
+	<summary>ボタン表示/非表示</summary>
+</member><member name="F:frm_LWHBC000F.TITLE_NAME_ERR">
+	<summary>タイトル定数（エラー）</summary>
+</member><member name="M:frm_LWHBC000F.#ctor">
+	<summary>
+ 初期化
+ </summary>
+</member><member name="M:frm_LWHBC000F.#ctor(System.Collections.ArrayList)">
+	<summary>
+ 初期化
+ </summary>
+	<param name="lstArray">メッセージ情報</param>
+</member><member name="M:frm_LWHBC000F.frm_LWHBC000F_Load(System.Object,System.EventArgs)">
+	<summary>
+ フォームロード
+ </summary>
+	<param name="sender">コンポーネント</param>
+	<param name="e">イベント情報</param>
+</member><member name="M:frm_LWHBC000F.pnl_OK_Click(System.Object,System.EventArgs)">
+	<summary>
+ ＯＫ押下
+ </summary>
+	<param name="sender">コンポーネント</param>
+	<param name="e">イベント情報</param>
+</member><member name="M:frm_LWHBC000F.frm_LWHBC000F_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_LWHBC000F_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>vudh</remarks>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.IsDebug">
+	<summary>
+ ﾛｸﾞの走行ﾚﾍﾞﾙがDebug以下であるか判定します。
+ </summary>
+	<returns>ﾛｸﾞの走行ﾚﾍﾞﾙが低い(ture) or ﾛｸﾞの走行ﾚﾍﾞﾙが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.IsTrace">
+	<summary>
+ ﾛｸﾞの走行ﾚﾍﾞﾙがTrace以下であるか判定します。
+ </summary>
+	<returns>ﾛｸﾞの走行ﾚﾍﾞﾙが低い(ture) or ﾛｸﾞの走行ﾚﾍﾞﾙが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.IsDump">
+	<summary>
+ ﾛｸﾞの走行ﾚﾍﾞﾙがDump以下であるか判定します。
+ </summary>
+	<returns>ﾛｸﾞの走行ﾚﾍﾞﾙが低い(ture) or ﾛｸﾞの走行ﾚﾍﾞﾙが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteStartLog">
+	<summary>
+ 開始ログを出力します。
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteEndLog">
+	<summary>
+ 終了ﾛｸﾞを出力します。
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteDebugLog(System.String)">
+	<summary>
+ ﾃﾞﾊﾞｯｸﾞﾛｸﾞを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteTraceLog(System.String)">
+	<summary>
+ トレースログを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteWarning(System.String)">
+	<summary>
+ ﾜｰﾆﾝｸﾞﾛｸﾞを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteErrorLog(System.String)">
+	<summary>
+ ｴﾗｰﾛｸﾞを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteErrorLog(System.Exception)">
+	<summary>
+ ｴﾗｰﾛｸﾞを出力します。
+ </summary>
+	<param name="ex">ｴﾗｰ情報</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.WriteLog(jp.co.ait.common.ABCDBCLog.LogLevel,System.String)">
+	<summary>
+ ﾛｸﾞ出力情報設定
+ </summary>
+	<param name="level">ﾛｸﾞﾚﾍﾞﾙ</param>
+	<param name="msg">出力文字列</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.IsLogin">
+	<summary>
+ ﾛｸﾞｲﾝの有無を確認します。
+ </summary>
+	<returns>True:ﾛｸﾞｲﾝ中　False:非ﾛｸﾞｲﾝ</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCFormBase.GetLoginInfo">
+	<summary>
+ ﾛｸﾞｲﾝ情報を取得します。
+ </summary>
+	<returns>ﾛｸﾞｲﾝ情報。ただし、非ﾛｸﾞｲﾝ時はNothingを返します。</returns>
+</member><member name="T:jp.co.ait.common.forms.ABCDBCFormBase">
+	<summary>
+ 共通ﾌｫｰﾑ基盤ｸﾗｽ
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCXmlManager._strXmlFileName">
+	<summary>
+ xmlﾌｧｲﾙﾊﾟｽ
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.#ctor(System.String)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="strXmlFileName">xmlファイルのパス</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadString(System.String)">
+	<summary>
+ xmlファイルからtextの値を取得します。
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<returns>textの値</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadStringList(System.String)">
+	<summary>
+ xmlファイルからtextの値を取得します(複数)
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<returns>textの値</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadAttribute(System.String,System.String)">
+	<summary>
+  xmlファイルから属性値を取得
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<param name="name">属性名</param>
+	<returns>属性値(文字列)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadAttributeList(System.String,System.String)">
+	<summary>
+ xmlファイルから属性値を取得(複数)
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<param name="name">属性名</param>
+	<returns>属性値(文字列)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadAttributeInteger(System.String,System.String)">
+	<summary>
+  xmlファイルから値を取得(属性値から取得)
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<param name="name">属性名</param>
+	<returns>属性値(数値)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.ReadAttributeBoolean(System.String,System.String)">
+	<summary>
+ xmlファイルから値を取得(属性値から取得)
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<param name="name">属性名</param>
+	<returns>属性値(Boolean)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.GetFileData(System.String)">
+	<summary>
+ 構成ファイルより情報取得
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<returns>取得情報</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.GetFileData(System.String,System.String)">
+	<summary>
+ xmlファイルより情報取得
+ </summary>
+	<param name="strFileName">xmlファイルパス</param>
+	<param name="xPath">取得したい要素までのパス</param>
+	<returns>取得情報</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.WriteString(System.String,System.String,System.String)">
+	<summary>
+ xmlファイルに値を書き込みます
+ </summary>
+	<param name="strFileName">xmlファイルパス</param>
+	<param name="xPath">保存する要素のパス</param>
+	<param name="val">属性値</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.WriteString(System.String,System.String)">
+	<summary>
+ xmlファイルに値を書き込みます
+ </summary>
+	<param name="xPath">保存する要素のパス</param>
+	<param name="val">属性値</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.WriteString(System.String,System.String[])">
+	<summary>
+ xmlファイルに値を書き込みます
+ </summary>
+	<param name="xPath">保存する要素のパス</param>
+	<param name="val">属性値</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.WriteAttribute(System.String,System.String,System.String)">
+	<summary>
+ xmlファイルに値を書き込みます
+ </summary>
+	<param name="xPath">保存する要素のパス</param>
+	<param name="name">属性名</param>
+	<param name="val">属性値</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.WriteAttribute(System.String,System.String,System.String[])">
+	<summary>
+ xmlファイルに値を書き込みます
+ </summary>
+	<param name="xPath">保存する要素のパス</param>
+	<param name="name">属性名</param>
+	<param name="val">属性値</param>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.Save">
+	<summary>
+ 読み込みxmlﾌｧｲﾙを上書きします。
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCXmlManager.Save(System.String)">
+	<summary>
+ 指定したﾌｧｲﾙにxmlデータを出力します。
+ </summary>
+	<param name="dir">セーブしたいxmlファイルまでのフルパス</param>
+</member><member name="T:jp.co.ait.common.ABCDBCXmlManager">
+	<summary>
+ xmlファイル管理クラス
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCCommon.GetCurrentDir">
+	<summary>
+ カレントフォルダパス取得
+ </summary>
+	<returns>カレントフォルダパス</returns>
+</member><member name="T:jp.co.ait.common.ABCDBCCommon">
+	<summary>
+ BC共通クラス
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.IsDebug">
+	<summary>
+ ログの走行レベルがDebug以下であるか判定します。
+ </summary>
+	<returns>ログの走行レベルが低い(ture) or ログの走行レベルが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.IsTrace">
+	<summary>
+ ログの走行レベルがTrace以下であるか判定します。
+ </summary>
+	<returns>ログの走行レベルが低い(ture) or ログの走行レベルが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.IsDump">
+	<summary>
+ ログの走行レベルがDump以下であるか判定します。
+ </summary>
+	<returns>ログの走行レベルが低い(ture) or ログの走行レベルが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteStartLog">
+	<summary>
+ 開始ログを出力します。
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteEndLog">
+	<summary>
+ 終了ログを出力します。
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteDebugLog(System.String)">
+	<summary>
+ デバッグログを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteTraceLog(System.String)">
+	<summary>
+ トレースログを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteWarning(System.String)">
+	<summary>
+ ワーニングログを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteErrorLog(System.String)">
+	<summary>
+ エラーログを出力します。
+ </summary>
+	<param name="str">出力文字列</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteErrorLog(System.Exception)">
+	<summary>
+ エラーログを出力します。
+ </summary>
+	<param name="ex">エラー情報</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.WriteLog(jp.co.ait.common.ABCDBCLog.LogLevel,System.String)">
+	<summary>
+ ログ出力情報設定
+ </summary>
+	<param name="level">ログレベル</param>
+	<param name="msg">出力文字列</param>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.IsLogin">
+	<summary>
+ ログインの有無を確認します。
+ </summary>
+	<returns>True:ログイン中　False:非ログイン</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.GetLoginInfo">
+	<summary>
+ ログイン情報を取得します。
+ </summary>
+	<returns>ログイン情報。ただし、非ログイン時はNothingを返します。</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.GetMessage(System.String,System.String[])">
+	<summary>
+ メッセージの取得
+ </summary>
+	<param name="msgID">メッセージID</param>
+	<param name="param">置き換える内容配列</param>
+	<returns>メッセージ内容</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.ShowMessageForm(System.String,System.String,System.Int32,System.String[])">
+	<summary>
+ メッセージフォームを表示
+ </summary>
+	<param name="msgID">メッセージID</param>
+	<param name="warnningFlag">置き換える内容配列</param>
+	<param name="param">置き換える内容配列</param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.common.ABCDBCBase.ShowSystemMessageForm">
+	<summary>
+ システムエラーをエラーフォームに表示する
+ </summary>
+</member><member name="T:jp.co.ait.common.ABCDBCBase">
+	<summary>
+ BWS共通関数基底クラス
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._borderStyle">
+	<summary>
+ 境界線スタイル
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._borderColor">
+	<summary>
+ 境界線色
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._borderWidth">
+	<summary>
+ 境界線幅
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._pnlLocked">
+	<summary>
+ パネルロックの値(クリックイベント処理しないように)
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._colorLevel">
+	<summary>
+ パネル色レベル
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._labelText">
+	<summary>
+ パネルに表示する文字列
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._splitChar">
+	<summary>
+ パネルに表示する文字列を改行する際の改行文字
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._fontColor">
+	<summary>
+ ﾌｫﾝﾄ色
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._labelFont">
+	<summary>
+ パネルに表示する文字列を改行する際の改行文字
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._labelAlign">
+	<summary>
+ パネルに表示する文字列を左右表示
+ </summary>
+</member><member name="F:jp.co.ait.common.forms.ABCDBCPanel._clickEnabled">
+	<summary>
+ ﾊﾟﾈﾙｸﾘｯｸ可否ﾌﾗｸﾞ
+ </summary>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.BorderStyle">
+	<summary>
+ 境界線スタイルの設定と取得(3D対応しません)
+ </summary>
+	<value>境界線スタイルの設定値</value>
+	<returns>境界線スタイルの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.BorderColor">
+	<summary>
+ 境界線色の設定と取得
+ </summary>
+	<value>境界線色の設定値</value>
+	<returns>境界線色の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.BorderWidth">
+	<summary>
+ 境界線幅の設定と取得
+ </summary>
+	<value>境界線幅の設定値</value>
+	<returns>境界線幅の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.PnlLocked">
+	<summary>
+ ロックの設定と取得
+ </summary>
+	<value>ロックの設定値</value>
+	<returns>ロックの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.ColorLevel">
+	<summary>
+ パネル色レベルの設定と取得
+ </summary>
+	<value>パネル色レベルの設定値</value>
+	<returns>パネル色レベルの戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.LabelText">
+	<summary>
+ パネルの文字の設定と取得
+ </summary>
+	<value>パネルの文字の設定値</value>
+	<returns>パネルの文字の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.SplitChar">
+	<summary>
+ パネルの改行文字の設定と取得
+ </summary>
+	<value>パネルの改行文字の設定値</value>
+	<returns>パネルの改行文字の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.FontColor">
+	<summary>
+ パネル文字色の設定と取得
+ </summary>
+	<value>パネル文字色の設定値</value>
+	<returns>パネル文字色の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.LableFont">
+	<summary>
+ パネル文字
+ </summary>
+	<value>パネル文字の設定値</value>
+	<returns>パネル文字の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.LabelAlign">
+	<summary>
+ パネル文字の水平位置
+ </summary>
+	<value>パネル文字の水平位置の設定値</value>
+	<returns>パネル文字の水平位置の戻り値</returns>
+</member><member name="P:jp.co.ait.common.forms.ABCDBCPanel.ClickEnabled">
+	<summary>
+ ﾊﾟﾈﾙｸﾘｯｸ可否ﾌﾗｸﾞ
+ </summary>
+	<value>ﾊﾟﾈﾙｸﾘｯｸ可否ﾌﾗｸﾞの設定値</value>
+	<returns>ﾊﾟﾈﾙｸﾘｯｸ可否ﾌﾗｸﾞの戻り値</returns>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.SetPanelColor">
+	<summary>
+ ﾊﾟﾈﾙの色を設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.SetPanelFont(jp.co.ait.common.ABCDBCConst.userColorLevel,System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ ﾊﾟﾈﾙにﾌｫﾝﾄを描画する
+ </summary>
+	<param name="value">色ﾗﾍﾞﾙ</param>
+	<param name="e">描画ｲﾍﾞﾝﾄ情報</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.SetPanelBorder(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ ﾊﾟﾈﾙの罫線を描画する
+ </summary>
+	<param name="e">描画ｲﾍﾞﾝﾄ情報</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.customInitialisation">
+	<summary>
+ 初期化処理
+ </summary>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.OnPaintBackGround(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ ToolStripの背景のPaintイベントを発生させる。
+ </summary>
+	<param name="e">Paintイベント情報</param>
+</member><member name="M:jp.co.ait.common.forms.ABCDBCPanel.OnClick(System.EventArgs)">
+	<summary>
+ パネルのクリックイベントをｵｰﾊﾞｰﾗｲﾄﾞする
+ </summary>
+	<param name="e">イベント情報</param>
+</member><member name="T:jp.co.ait.common.forms.ABCDBCPanel">
+	<summary>
+ ハンディ用パネル(パネルコンポーネット)
+ </summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog._LogFileName">
+	<summary>定義ファイルで指定されているlogファイル名の冠</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog._LogFileDir">
+	<summary>定義ファイルで指定されているlogファイルのパス</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog._LogLevel">
+	<summary>定義ファイルで指定されているログレベル</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelDump">
+	<summary>情報(ダンプ)</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelDebug">
+	<summary>情報(デバッグ)</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelInformation">
+	<summary>情報(件数)</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelTrace">
+	<summary>成功/情報(SQL)</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelOperation">
+	<summary>開始/終了</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelWarning">
+	<summary>警告</summary>
+</member><member name="F:jp.co.ait.common.ABCDBCLog.LogLevel.LevelError">
+	<summary>エラー</summary>
+</member><member name="T:jp.co.ait.common.ABCDBCLog.LogLevel">
+	<summary>
+ ログレベル定義体
+ </summary>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.WriteLog(jp.co.ait.common.ABCDBCLog.LogLevel,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ ログ出力
+ </summary>
+	<param name="level">ログレベル</param>
+	<param name="msg">メッセージ</param>
+	<param name="clsName">クラス名</param>
+	<param name="mtdName">メソッド名</param>
+	<param name="screenId">画面ID</param>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.WriteLog(System.Exception,System.String,System.String,System.String,System.String)">
+	<summary>
+ エラーログ出力
+ </summary>
+	<param name="ex">エラー情報</param>
+	<param name="userID">ユーザーID</param>
+	<param name="clsName">クラス名</param>
+	<param name="mtdName">メソッド名</param>
+	<param name="screenId">画面ID</param>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.GetLoglevel">
+	<summary>
+ ログレベルの取得
+ </summary>
+	<returns>ログレベル</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.IsLoglevel(jp.co.ait.common.ABCDBCLog.LogLevel)">
+	<summary>
+ ログレベルの判定
+ </summary>
+	<param name="level">ログレベル</param>
+	<returns>ログの走行レベルが低い(ture) or ログの走行レベルが高い(false)</returns>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.GetFileData(System.String)">
+	<summary>
+ 構成ファイルより情報取得
+ </summary>
+	<param name="xPath">取得したい要素までのパス</param>
+	<returns>取得情報</returns>
+</member><member name="P:jp.co.ait.common.ABCDBCLog.SetLogFileName">
+	<summary>
+ ログファイル名を設定
+ </summary>
+	<value></value>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.WriteLogStrings(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ ログ文字列作成
+ </summary>
+	<param name="level">ログレベル</param>
+	<param name="userID">ユーザーID</param>
+	<param name="clsName">クラス名</param>
+	<param name="mtdName">メソッド名</param>
+	<param name="screenId">画面ID</param>
+	<param name="msg">メッセージ</param>
+</member><member name="M:jp.co.ait.common.ABCDBCLog.WriteLog(System.String)">
+	<summary>
+ ログファイル書き込み
+ </summary>
+	<param name="msg">文字列</param>
+</member><member name="T:jp.co.ait.common.ABCDBCLog">
+	<summary>
+ ログクラス
+ </summary>
+</member>
+</members>
+</doc>

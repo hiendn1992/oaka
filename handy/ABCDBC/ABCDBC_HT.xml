@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BSWXmlManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- プリンタ区分 -->
+  <PRINT_XML>
+    <!-- 0(RICOH),1(SATO) -->
+    <PRINTER_KBN>1</PRINTER_KBN>
+  </PRINT_XML>
+
+</BSWXmlManager>

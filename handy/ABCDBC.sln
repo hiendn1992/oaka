@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ABCDBC", "ABCDBC\ABCDBC.vbproj", "{37CE198C-1D86-4FAD-8407-CB1940027D27}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "ABCDBCInstaller", "ABCDBCInstaller\ABCDBCInstaller.vddproj", "{A7113885-BA49-4BB1-8E95-216CEF5A9EEF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ABCDBCCommon", "..\common\ABCDBCCommon.vbproj", "{8621438B-C690-413A-87D4-A395ADACB1B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CE198C-1D86-4FAD-8407-CB1940027D27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A7113885-BA49-4BB1-8E95-216CEF5A9EEF}.Debug|Any CPU.ActiveCfg = Debug
+		{A7113885-BA49-4BB1-8E95-216CEF5A9EEF}.Debug|Any CPU.Build.0 = Debug
+		{A7113885-BA49-4BB1-8E95-216CEF5A9EEF}.Release|Any CPU.ActiveCfg = Release
+		{A7113885-BA49-4BB1-8E95-216CEF5A9EEF}.Release|Any CPU.Build.0 = Release
+		{8621438B-C690-413A-87D4-A395ADACB1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8621438B-C690-413A-87D4-A395ADACB1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8621438B-C690-413A-87D4-A395ADACB1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8621438B-C690-413A-87D4-A395ADACB1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

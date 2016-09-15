@@ -1,0 +1,9 @@
+D:\oka_src\service\ABCDWebService\bin\ABCDWebService.dll
+D:\oka_src\service\ABCDWebService\bin\ABCDWebService.pdb
+D:\oka_src\service\ABCDWebService\bin\ABCDWebService.xml
+D:\oka_src\service\ABCDWebService\obj\Debug\ResolveAssemblyReference.cache
+D:\oka_src\service\ABCDWebService\obj\Debug\ABCDWebService.Resources.resources
+D:\oka_src\service\ABCDWebService\obj\Debug\ABCDWebService.vbproj.GenerateResource.Cache
+D:\oka_src\service\ABCDWebService\obj\Debug\ABCDWebService.dll
+D:\oka_src\service\ABCDWebService\obj\Debug\ABCDWebService.xml
+D:\oka_src\service\ABCDWebService\obj\Debug\ABCDWebService.pdb

@@ -1,0 +1,3395 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ABCDBC
+</name>
+</assembly>
+<members>
+<member name="F:jp.co.ait.ABCDBC.common.BCLoginManager._LoginInfo">
+	<summary>ログイン情報</summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginManager.IsLogin">
+	<summary>
+ ログイン状態
+ </summary>
+	<returns>True：ログイン済み　False：未ログイン</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginManager.GetLoginInfo">
+	<summary>
+ ログイン情報の取得
+ </summary>
+	<returns>ログイン情報</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginManager.CreateLoginInfo(System.String,System.String)">
+	<summary>
+ ログイン情報クラスの作成
+ </summary>
+	<param name="UserID">登録したユーザID</param>
+	<returns>ログイン情報クラスインスタンス</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginManager.ShowMenuForm">
+	<summary>
+ Show menu form with authority
+ </summary>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ImportFGW830Count">
+	<summary>
+ ImportFGW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.SetRackW830Count">
+	<summary>
+ SetRackW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ImportW900Count">
+	<summary>
+ ImportW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ExportW900Count">
+	<summary>
+ ExportW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.RejectW900Count">
+	<summary>
+ RejectW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.RejectW830Count">
+	<summary>
+ RejectW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.RetrieveW900Count">
+	<summary>
+ RetrieveW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.MenuW900OrFG">
+	<summary>
+ RetrieveW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.StocktakingW900Count">
+	<summary>
+ StocktakingW900Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.StocktakingW830Count">
+	<summary>
+ StocktakingW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ShipmentCount">
+	<summary>
+ ShipmentCount
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.StockDeleteW830Count">
+	<summary>
+ StockDeleteW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.StockMoveW830Count">
+	<summary>
+ StockMoveW830Count
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ShipmentReturnCount">
+	<summary>
+	</summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginManager.ReturnW900Count">
+	<summary>
+ Get and set count W900 #No.23 [cuongtk (20150825)]
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCLoginManager">
+	<summary>
+ ログイン情報クラス
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.frm_STOCKTKFG004_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTKFG004_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.frm_STOCKTKFG002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTKFG002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG004.frm_STOCKTK002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.#ctor">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateQuantityInBoxByBarcode(System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateQuantityInBoxByBarcode(System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateQuantityInBoxByBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetPrintBarcode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetPrintBarcode(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetPrintBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetShipmentInquiryByInvoiceNo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetShipmentInquiryByInvoiceNo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetShipmentInquiryByInvoiceNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckDataIsValidToReturnW900(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckDataIsValidToReturnW900(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckDataIsValidToReturnW900(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.IsExistW900OrW830(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginIsExistW900OrW830(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndIsExistW900OrW830(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetEventsLoginDataSet(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetEventsLoginDataSet(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetEventsLoginDataSet(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetDataInUserMasterMS(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetDataInUserMasterMS(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetDataInUserMasterMS(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetUserInfoProccess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetUserInfoProccess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetUserInfoProccess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertUserInfo(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertUserInfo(System.String,System.String,System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertUserInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateUserInfo(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateUserInfo(System.String,System.String,System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateUserInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteUserInfo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteUserInfo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteUserInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UserInquiry(System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUserInquiry(System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUserInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseStatusTr(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseStatusTr(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseStatusTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChangeUserPassword(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChangeUserPassword(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChangeUserPassword(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetUserInfoByID(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetUserInfoByID(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetUserInfoByID(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWOInfoByWONo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWOInfoByWONo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWOInfoByWONo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWOInfoByWONoJoinItem(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWOInfoByWONoJoinItem(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWOInfoByWONoJoinItem(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertWOInfo(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertWOInfo(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertWOInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWOInfoList(System.String,System.String,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWOInfoList(System.String,System.String,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWOInfoList(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateWOInfo(System.String,System.DateTime,System.String,System.Int32,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateWOInfo(System.String,System.DateTime,System.String,System.Int32,System.Int32,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateWOInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteWOInfo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteWOInfo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteWOInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateIssueFlag(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateIssueFlag(System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateIssueFlag(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateIssueFlagToString(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateIssueFlagToString(System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateIssueFlagToString(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkRackNoExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkRackNoExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkRackNoExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkBarcodeExistSelectedRack(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkBarcodeExistSelectedRack(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkBarcodeExistSelectedRack(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.SetRackToW830(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginSetRackToW830(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndSetRackToW830(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckBarcodeExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckBarcodeExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckBarcodeExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ImportBarcodeIntoQC(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginImportBarcodeIntoQC(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndImportBarcodeIntoQC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStkMvRackNoExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStkMvRackNoExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStkMvRackNoExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStkMvBarcodeExistDestRackNo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStkMvBarcodeExistDestRackNo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStkMvBarcodeExistDestRackNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.StockMoveW830(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginStockMoveW830(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndStockMoveW830(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckRejectBarcodeExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckRejectBarcodeExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckRejectBarcodeExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.RejectBarcodeIntoW9902(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginRejectBarcodeIntoW9902(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndRejectBarcodeIntoW9902(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckRetrieveRackCDExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckRetrieveRackCDExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckRetrieveRackCDExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckRetrieveBarcodeExistSelectedRack(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckRetrieveBarcodeExistSelectedRack(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckRetrieveBarcodeExistSelectedRack(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.RetrieveBarcodeIntoQC(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginRetrieveBarcodeIntoQC(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndRetrieveBarcodeIntoQC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStocktkReqDateExist(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStocktkReqDateExist(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStocktkReqDateExist(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStocktkBarcodeExistSelectedReqDate(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStocktkBarcodeExistSelectedReqDate(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStocktkBarcodeExistSelectedReqDate(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.StocktakingBarcodeQC(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginStocktakingBarcodeQC(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndStocktakingBarcodeQC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckBarcodeImportFGExistProcess(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckBarcodeImportFGExistProcess(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckBarcodeImportFGExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ImportFGBarcodeIntoQC(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginImportFGBarcodeIntoQC(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndImportFGBarcodeIntoQC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ShipmentReturn(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginShipmentReturn(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndShipmentReturn(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkRejFGBarcodeExistW830(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkRejFGBarcodeExistW830(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkRejFGBarcodeExistW830(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.RejectFGBarcodeIntoW9902(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginRejectFGBarcodeIntoW9902(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndRejectFGBarcodeIntoW9902(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkShipReqNoExist(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkShipReqNoExist(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkShipReqNoExist(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkPalletNoExistShipReqNo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkPalletNoExistShipReqNo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkPalletNoExistShipReqNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckBarcodeExistShipReqNo(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckBarcodeExistShipReqNo(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckBarcodeExistShipReqNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ShipmentBarcode(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginShipmentBarcode(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndShipmentBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetRackInfoByCd(System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetRackInfoByCd(System.String,System.Int32,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetRackInfoByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertRackInfo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertRackInfo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertRackInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateRackInfo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateRackInfo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateRackInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteRackInfo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteRackInfo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteRackInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.RackInquiry(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginRackInquiry(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndRackInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckRackIsEmpty(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckRackIsEmpty(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckRackIsEmpty(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetNextCusId(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetNextCusId(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetNextCusId(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertCustomerInfo(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertCustomerInfo(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertCustomerInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetCustomerInfoByID(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetCustomerInfoByID(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetCustomerInfoByID(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateCustomerInfo(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateCustomerInfo(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateCustomerInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteCustomerInfo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteCustomerInfo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteCustomerInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CustomerInquiry(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCustomerInquiry(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCustomerInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStocktFGkReqDateExist(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStocktFGkReqDateExist(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStocktFGkReqDateExist(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStockFGRackNoExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStockFGRackNoExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStockFGRackNoExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStockFGValidBarcode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStockFGValidBarcode(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStockFGValidBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.StocktakingBarcodeFG(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginStocktakingBarcodeFG(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndStocktakingBarcodeFG(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemInfoByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemInfoByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemInfoByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertItemInfo(System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertItemInfo(System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertItemInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateItemInfo(System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateItemInfo(System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateItemInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteItemInfo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteItemInfo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteItemInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ItemInquiry(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginItemInquiry(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndItemInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetProductInfoByItemCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetProductInfoByItemCode(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetProductInfoByItemCode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemCustomerInfoByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemCustomerInfoByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemCustomerInfoByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailInfoByBCFromTo(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailInfoByBCFromTo(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailInfoByBCFromTo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetCurrentBoxNumber(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetCurrentBoxNumber(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetCurrentBoxNumber(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateCurrentBoxNumber(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateCurrentBoxNumber(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateCurrentBoxNumber(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateCurrentBoxNumberToString(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateCurrentBoxNumberToString(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateCurrentBoxNumberToString(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseHistTr(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseHistTr(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseHistTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertWarehouseHistTrInfo(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertWarehouseHistTrInfo(System.String,System.String,System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertWarehouseHistTrInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertWarehouseHistTrInfoToString(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertWarehouseHistTrInfoToString(System.String,System.String,System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertWarehouseHistTrInfoToString(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetShipmentReqDetailByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetShipmentReqDetailByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetShipmentReqDetailByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteShipmentReqDtlInfoTrByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteShipmentReqDtlInfoTrByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteShipmentReqDtlInfoTrByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertShipmentReqDtlInfoTr(System.String,System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertShipmentReqDtlInfoTr(System.String,System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertShipmentReqDtlInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetShipmentActDetailByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetShipmentActDetailByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetShipmentActDetailByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetAvaiableBarcodeByItemCd(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetAvaiableBarcodeByItemCd(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetAvaiableBarcodeByItemCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertShipmentActDtlInfoTr(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertShipmentActDtlInfoTr(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertShipmentActDtlInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ChkStkDelBarcodeExist(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginChkStkDelBarcodeExist(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndChkStkDelBarcodeExist(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.StockDeleteW900(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginStockDeleteW900(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndStockDeleteW900(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.StockDeleteW830(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginStockDeleteW830(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndStockDeleteW830(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseInfoByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseInfoByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseInfoByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertItemDtlInfo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertItemDtlInfo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertItemDtlInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertItemDtlInfoToString(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertItemDtlInfoToString(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertItemDtlInfoToString(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetNewBoxList(System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetNewBoxList(System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetNewBoxList(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetShipmentInfoByShipmentReqNo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetShipmentInfoByShipmentReqNo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetShipmentInfoByShipmentReqNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetShipmentInfo(System.String,System.DateTime,System.DateTime,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetShipmentInfo(System.String,System.DateTime,System.DateTime,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetShipmentInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteShipmentReqInfoTrByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteShipmentReqInfoTrByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteShipmentReqInfoTrByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertShipReqInfoTr(System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertShipReqInfoTr(System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertShipReqInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertShipReqInfoTrWithDetail(System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.Data.DataTable,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertShipReqInfoTrWithDetail(System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.Data.DataTable,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertShipReqInfoTrWithDetail(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateShipReqInfoTr(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateShipReqInfoTr(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateShipReqInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateShipReqInfoTrWithDetail(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateShipReqInfoTrWithDetail(System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.DateTime,System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateShipReqInfoTrWithDetail(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.SetShipReqInfoTrComplete(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginSetShipReqInfoTrComplete(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndSetShipReqInfoTrComplete(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ShipmentInquiry(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginShipmentInquiry(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndShipmentInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ExecuteShipment(System.String,System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginExecuteShipment(System.String,System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndExecuteShipment(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateItemDtlInfoShipFlag(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateItemDtlInfoShipFlag(System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateItemDtlInfoShipFlag(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseTrByBarcodeNo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseTrByBarcodeNo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseTrByBarcodeNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseTrByCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseTrByCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseTrByCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.WarehouseTrInquiry(System.String,System.String,System.String,System.String,System.DateTime,System.DateTime,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginWarehouseTrInquiry(System.String,System.String,System.String,System.String,System.DateTime,System.DateTime,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndWarehouseTrInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWarehouseList(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWarehouseList(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWarehouseList(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.DeleteWarehouseTrByBarcode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginDeleteWarehouseTrByBarcode(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndDeleteWarehouseTrByBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertWarehouseTrInfo(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertWarehouseTrInfo(System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertWarehouseTrInfo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertWarehouseTrInfoToString(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertWarehouseTrInfoToString(System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertWarehouseTrInfoToString(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckBarcodeExportExistProcess(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckBarcodeExportExistProcess(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckBarcodeExportExistProcess(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ExportBarcodeIntoMold(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginExportBarcodeIntoMold(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndExportBarcodeIntoMold(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetWhInfoTrList(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetWhInfoTrList(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetWhInfoTrList(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetStockReqInfoTr(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetStockReqInfoTr(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetStockReqInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetStockReqDtlInfoTr(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetStockReqDtlInfoTr(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetStockReqDtlInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetStockResultDtlInfoTr(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetStockResultDtlInfoTr(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetStockResultDtlInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertStockReqDtlInfoTr(System.DateTime,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertStockReqDtlInfoTr(System.DateTime,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertStockReqDtlInfoTr(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.CheckStocktakingIsEmpty(System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginCheckStocktakingIsEmpty(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndCheckStocktakingIsEmpty(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetCodeMasterMS(System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetCodeMasterMS(System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetCodeMasterMS(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetUnitByCode2(System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetUnitByCode2(System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetUnitByCode2(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ProductInfoInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginProductInfoInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndProductInfoInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailByItemCd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailByItemCd(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailByItemCd(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.ImproveScreenProductInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginImproveScreenProductInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndImproveScreenProductInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetDataProductInfoInquiryWithModeNew(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetDataProductInfoInquiryWithModeNew(System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetDataProductInfoInquiryWithModeNew(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.InsertScreenProductInfoInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.String[])">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginInsertScreenProductInfoInquiry(System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String[],System.String,System.String[],System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndInsertScreenProductInfoInquiry(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetBarcode(System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetBarcode(System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailByWorkOrderNo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailByWorkOrderNo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailByWorkOrderNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailByBarcode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailByBarcode(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailByBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateItemDetailByBarcode(System.String,System.Int32,System.Int32,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateItemDetailByBarcode(System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateItemDetailByBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetListBarcode(System.String,System.String,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetListBarcode(System.String,System.String,System.String,System.Int32,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetListBarcode(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.UpdateItemDetail(System.String[],System.Int32,System.String,System.Int32,System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginUpdateItemDetail(System.String[],System.Int32,System.String,System.Int32,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndUpdateItemDetail(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailByWorkNo(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailByWorkNo(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailByWorkNo(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.GetItemDetailByWorkNoOrderBarcodeAsc(System.String,System.String)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.BeginGetItemDetailByWorkNoOrderBarcodeAsc(System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.WebService.Service.EndGetItemDetailByWorkNoOrderBarcodeAsc(System.IAsyncResult)">
+	<remarks/>
+</member><member name="T:jp.co.ait.ABCDBC.WebService.Service">
+	<remarks/>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu001.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu001.frm_Menu001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Menu001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu001.pnl_W900_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_W900_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu001.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu001.pnl_FG_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_FG_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.#ctor(System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="pStockReqNo"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.frm_STOCKTKFG005_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTKFG005_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.frm_STOCKTKFG005_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTKFG004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG005.pnl_RackNo_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_RackNo_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.frm_Reject001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Reject001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.frm_Reject001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_Reject001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ001.frm_Reject001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Reject001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.pnl_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.frm_Login001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Login001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.pnl_Cancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Cancel_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.login_Pnl_Ok">
+	<summary>
+ login_Pnl_Ok
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Login001.DeleteLogFiles">
+	<summary>
+ ﾛｸﾞﾌｧｲﾙの世帯管理
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="P:jp.co.ait.ABCDBC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:jp.co.ait.ABCDBC.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:jp.co.ait.ABCDBC.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.frm_ImportW900_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_ImportW900_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.frm_ImportW900_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_ImportW900_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP001.frm_ImportW900_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_ImportW900_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.pnl_Reject_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Reject_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.frm_REJ002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_REJ002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ002.frm_REJ002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_REJ002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu003.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_Menu003.frm_Menu003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Menu003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.pnl_Retrieve_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Retrieve_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.frm_IMP002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_IMP002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP002.frm_IMP002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_IMP002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ003.frm_EXP003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_EXP003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJ003.frm_EXP003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_EXP003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCLoginInfo._userID">
+	<summary>ログインユーザID</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCLoginInfo._authority">
+	<summary>ログインユーザ名称</summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginInfo.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCLoginInfo.#ctor(System.String,System.String)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="userID">ログインユーザID</param>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginInfo.UserID">
+	<summary>
+ ログインユーザIDの設定と取得
+ </summary>
+	<value>ログインユーザIDの設定値</value>
+	<returns>ログインユーザIDの戻り値</returns>
+</member><member name="P:jp.co.ait.ABCDBC.common.BCLoginInfo.Authority">
+	<summary>
+ ログインユーザ名称の設定と取得
+ </summary>
+	<value>ログインユーザ名称の設定値</value>
+	<returns>ログインユーザ名称の戻り値</returns>
+</member><member name="T:jp.co.ait.ABCDBC.ReturnW900">
+	<summary>
+ #No.23: add new method return W900 [cuongtk (20150825)]
+ Screen: Return W900
+ Class: ReturnW900.vb
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.frm_ImportW902_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_ImportW902_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.frm_ImportW902_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_ImportW902_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMP003.frm_ImportW902_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_ImportW902_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG001.frm_SHIPFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SHIPFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG001.panel_CANCEL_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_CANCEL_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG001.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG001.frm_SHIPFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SHIPFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.frm_SHIPFG002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SHIPFG002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.frm_SHIPFG002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SHIPFG002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG002.frm_SHIPFG002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SHIPFG002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.frm_Export001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Export001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.frm_Export001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_Export001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP001.frm_Export001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Export001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.BarcodeObj.ScanEnable">
+	<summary>
+ ScanEnable
+ </summary>
+	<remarks>enable scan device</remarks>
+</member><member name="M:jp.co.ait.ABCDBC.BarcodeObj.ScanDisable">
+	<summary>
+ ScanDisable
+ </summary>
+	<remarks>disable device</remarks>
+</member><member name="M:jp.co.ait.ABCDBC.BarcodeObj.ScanData">
+	<summary>
+ ScanData
+ </summary>
+	<remarks>scan to get value of barcode</remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.frm_SHIPFG003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SHIPFG003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.frm_SHIPFG003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SHIPFG003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG003.frm_SHIPFG003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SHIPFG003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.pnl_Export_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Retrieve_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.frm_EXP002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_EXP002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP002.frm_EXP002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_EXP002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.MessageListener.#ctor(jp.co.ait.common.forms.ABCDBCForm)">
+	<summary>
+ Constructor with param
+ </summary>
+	<param name="msgform"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.MessageListener.WndProc(Microsoft.WindowsCE.Forms.Message@)">
+	<summary>
+ Override the default WndProc behavior to examine messages.
+ </summary>
+	<param name="msg">Microsoft.WindowsCE.Forms.Message</param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.#ctor(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.pnl_SHIPFG004_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_SHIPFG004_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.frm_SHIPFG004_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SHIPFG004_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG004.frm_SHIPFG004_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SHIPFG004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP003.frm_EXP003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_EXP003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_EXP003.frm_EXP003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_EXP003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.frm_IMPFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_IMPFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.frm_IMPFG001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_IMPFG001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.frm_IMPFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_IMPFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG001.ProcessImport2">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.frm_SHIPFG005_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SHIPFG005_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.frm_SHIPFG005_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SHIPFG005_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SHIPFG005.pnl_PalletNo_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_PalletNo_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK001.frm_STOCKTK001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTK001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK001.panel_CANCEL_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_CANCEL_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK001.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK001.frm_STOCKTK001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.pnl_IMPFG002_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_IMPFG002_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.frm_IMP002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_IMP002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG002.frm_IMPFG002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_IMPFG002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.frm_REJFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_REJFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.frm_REJFG001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_REJFG001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG001.frm_REJFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_REJFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.frm_SMFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SMFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.frm_SMFG001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SMFG001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG001.frm_SMFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SMFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.frm_SRFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SRFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.frm_SRFG001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SRFG001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG001.frm_SRFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SRFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.frm_STOCKTK002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTK002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.frm_STOCKTK002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTK002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK002.frm_STOCKTK002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.frm_ImportW902_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_ImportW902_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.frm_ImportW902_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_ImportW902_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_IMPFG003.frm_ImportW902_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_ImportW902_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.pnl_REJFG002_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_REJFG002_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.frm_REJFG002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_REJFG002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG002.frm_REJFG002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_REJFG002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG002.frm_SMFG002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SMFG002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG002.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG002.frm_SMFG002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SMFG002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG002.frm_RETR002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_RETR002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG002.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG002.frm_RETR002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_RETR002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.frm_Retrieve001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Retrieve001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.frm_Retrieve001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_Retrieve001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR001.frm_Retrieve001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Retrieve001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.pnl_STOCKTK003_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_STOCKTK003_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.frm_STOCKTK003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTK003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK003.frm_STOCKTK003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG003.#ctor(System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="pMessage"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG003.frm_REJFG003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_REJFG003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_REJFG003.frm_REJFG003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_REJFG003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.frm_SMFG003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SMFG003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.frm_SMFG003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SMFG003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG003.frm_SMFG003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SMFG003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:jp.co.ait.ABCDBC.frm_SRFG003.QuantitySetRack">
+	<summary>
+ Overload quantity set rack in W830.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.frm_SRFG003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SRFG003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.frm_SRFG003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SRFG003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG003.frm_Retrieve003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Retrieve003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR002.frm_RETR002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_RETR002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR002.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR002.frm_RETR002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_RETR002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK004.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK004.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="pStockReqNo"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK004.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK004.frm_STOCKTK004_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTK004_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTK004.frm_STOCKTK004_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SET_INPUT_MAXLENGTH">
+	<summary>数字入力画面と英字入力画面に担当者コードの限定</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UCHIWAKE_TIRE">
+	<summary>内訳：タイヤ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.JUYOSAKI_REP">
+	<summary>需要先：ＲＥＰ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.JUYOSAKI_OE">
+	<summary>需要先：ＯＥ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.JUYOSAKI_EXP">
+	<summary>需要先：ＥＸＰ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_TANI_KUBUN.GOSHA_UNIT">
+	<summary>号車単位</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_TANI_KUBUN.DAY_UNIT">
+	<summary>日単位</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.SAGYO_TANI_KUBUN">
+	<summary>
+ ピッキング作業単位区分
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_SHUBETSU_KUBUN.BERTH">
+	<summary>バース</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_SHUBETSU_KUBUN.BASHO">
+	<summary>場所</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.SAGYO_SHUBETSU_KUBUN">
+	<summary>
+ ピッキング作業種別区分
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.NORMAL">
+	<summary>一般</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.EISO_PLT">
+	<summary>営倉(ﾊﾟﾚ)</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.EISO_BARA">
+	<summary>営倉(ﾊﾞﾗ)</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.KOGUCHI">
+	<summary>小口</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.TF_TANTAI">
+	<summary>チフ単体</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.KURANAKA">
+	<summary>倉中</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.KURANAKA_TF">
+	<summary>チフ倉中</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.WRAPPING">
+	<summary>ラッピング</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN.WRAPPING_TF">
+	<summary>チフラッピング</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.SAGYO_KEITAI_KUBUN">
+	<summary>
+ ピッキング作業形態区分
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_JISSEKI_FLG.PIKKING_LIST">
+	<summary>ピッキングリスト取得</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_JISSEKI_FLG.JISSEKI">
+	<summary>作業実績</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_JISSEKI_FLG.SAGYO_CHUDAN">
+	<summary>作業中断</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.SAGYO_JISSEKI_FLG.SAGYO_END">
+	<summary>作業全完了</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.SAGYO_JISSEKI_FLG">
+	<summary>
+ 作業実績フラグ
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.PIKKING_FLG.PIKKING_LIST">
+	<summary>ピッキングリスト取得</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.PIKKING_FLG.OTHER">
+	<summary>其の他</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.PIKKING_FLG">
+	<summary>
+ ピッキングフラグ
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.CHOKU_HEI_RETSU_FLG.CHOKURETSU">
+	<summary>直列</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.CHOKU_HEI_RETSU_FLG.HEIRETSU">
+	<summary>配列</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.CHOKU_HEI_RETSU_FLG">
+	<summary>
+ 直列／並列フラグ
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_GYOMU_KUBUN.SEIZO">
+	<summary>製造</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_GYOMU_KUBUN.ISO">
+	<summary>移送</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_GYOMU_KUBUN">
+	<summary>
+ 受入業務区分
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.ISO">
+	<summary>移送</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.IKAN">
+	<summary>移管</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.IPPANHIN">
+	<summary>一般</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.SKHIN">
+	<summary>SK品</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.WHIN">
+	<summary>W品</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.ENDHIN">
+	<summary>終了品</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN.JIDOSHIWAKE">
+	<summary>自動仕分</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_KEITAI_KUBUN">
+	<summary>
+ 受入形態区分
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.MIWARITUKE">
+	<summary>未割付</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.WARITUKEZUMI">
+	<summary>割付済</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.EFUHAKKOZUMI">
+	<summary>エフ発行済</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.UKEIRE_KANRYO">
+	<summary>受入作業完了</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.NYUKO_KANRYO">
+	<summary>入庫完了</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG.HOST_SETUZOKU">
+	<summary>ホスト接続済</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.UKEIRE_JOKYO_FLG">
+	<summary>
+ 受入状況フラグ
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.BUTTON.RIGHT">
+	<summary>右ボタン</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.BUTTON.LEFT">
+	<summary>左ボタン</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.BUTTON">
+	<summary>
+ ボタン
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.ISO_UKEIRE_EXIST_FLG.EXIST">
+	<summary>存在</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.ISO_UKEIRE_EXIST_FLG.UNEXIST">
+	<summary>非存在</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.ISO_UKEIRE_EXIST_FLG">
+	<summary>
+ 移送受入存在フラグ（在庫区分）
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.CommonFlg.OFF">
+	<summary>オフ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.CommonFlg.ON">
+	<summary>オン</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst.CommonFlg">
+	<summary>
+ 共通ﾌﾗｸﾞ値
+ </summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCConst.TITLE_SAGYOSTOP_ERR">
+	<summary>ﾀｲﾄﾙ名称作業中止確認</summary>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCConst">
+	<summary>
+ 定数クラス
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.frm_SDFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SDFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.frm_SDFG001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDFG001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG001.frm_SDFG001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SDFG001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.pnl_SMFG004_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_SMFG004_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.frm_SMFG004_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SMFG004_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG004.frm_SMFG004_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SMFG004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.pnl_SRFG004_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_SRFG004_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.frm_SRFG004_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SRFG004_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG004.frm_SRFG004_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SRFG004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.frm_Retrieve003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Retrieve003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.frm_Retrieve003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_Retrieve003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR003.frm_Retrieve003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_Retrieve003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.pnl_SDFG002_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_SDFG002_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.frm_SDFG002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDFG002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG002.frm_IMP002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_IMP002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.#ctor(System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.frm_SMFG005_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SMFG005_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.frm_SMFG005_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_ImportW902_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SMFG005.frm_SMFG005_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_ImportW902_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG005.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG005.#ctor(System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="pMessage"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG005.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG005.frm_EXP003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_EXP003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SRFG005.frm_EXP003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_EXP003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG001.frm_STOCKTKFG001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTKFG001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG001.panel_CANCEL_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_CANCEL_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG001.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG001.frm_STOCKTK001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTK001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.pnl_RETR004_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_RETR004_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.frm_RETR004_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_RETR004_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR004.frm_RETR004_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_RETR004_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.frm_SDQC001_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SDQC001_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.frm_SDQC001_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDQC001_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC001.frm_SDQC001_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SDQC001_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCCommon.webServiceURL">
+	<summary>ウェーブサービスのURLの文字列</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCCommon.frmInstance">
+	<summary>ﾌｫｰﾑｲﾝｽﾀﾝｽ用ﾘｽﾄ</summary>
+</member><member name="F:jp.co.ait.ABCDBC.common.BCCommon._webServiceTimeOut">
+	<summary>ウェーブサービスタイムアウト時間</summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetWebServiceTimeOut(System.Boolean)">
+	<summary>
+ ウェーブサービスタイムアウト時間を取得
+ </summary>
+	<returns></returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetCurrentDir">
+	<summary>
+ カレントフォルダパス取得
+ </summary>
+	<returns>カレントフォルダパス</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetWebHttpURL">
+	<summary>
+ ウェーブサービスのURLを取得する
+ </summary>
+	<returns>ウェーブサービスのURLの文字列</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.AddMainMenuFrmInstance">
+	<summary>
+ ﾒｲﾝ画面をﾘｽﾄに追加
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.ShowForm(System.String,System.Data.DataSet,System.String)">
+	<summary>
+ ﾌｫｰﾑIDより画面を表示する
+ </summary>
+	<param name="screenID">ﾌｫｰﾑID</param>
+	<param name="param">画面のﾊﾟﾗﾒｰﾀﾌﾟﾛﾊﾟﾃｨ(DataSet)</param>
+	<param name="motoScreenID">画面の遷移元画面IDﾌﾟﾛﾊﾟﾃｨ</param>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.ShowDialogForm(System.String,System.Data.DataSet,System.String)">
+	<summary>
+ ﾌｫｰﾑIDより画面を表示する(ShowDialog)
+ </summary>
+	<param name="screenID">ﾌｫｰﾑID</param>
+	<param name="param">画面のﾊﾟﾗﾒｰﾀﾌﾟﾛﾊﾟﾃｨ(DataSet)</param>
+	<param name="motoScreenID">画面の遷移元画面IDﾌﾟﾛﾊﾟﾃｨ</param>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.CloseForm(System.String,System.String,System.Data.DataSet,System.String)">
+	<summary>
+ ﾌｫｰﾑIDより画面をｸﾛｰｽﾞ
+ </summary>
+	<param name="screenID">ﾌｫｰﾑID</param>
+	<param name="showFormID">画面を閉じた後、表示する画面のID</param>
+	<param name="param">表示画面のﾊﾟﾗﾒｰﾀﾌﾟﾛﾊﾟﾃｨ(DataSet)</param>
+	<param name="motoScreenID">表示画面の遷移元画面IDﾌﾟﾛﾊﾟﾃｨ</param>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetForm(System.String,System.Data.DataSet,System.String)">
+	<summary>
+ ﾌｫｰﾑIDよりﾌｫｰﾑｲﾝｽﾀﾝｽを取得
+ </summary>
+	<param name="strScreenID">ﾌｫｰﾑID</param>
+	<param name="param">表示画面のﾊﾟﾗﾒｰﾀﾌﾟﾛﾊﾟﾃｨ(DataSet)</param>
+	<param name="motoScreenID">画面の遷移元画面IDﾌﾟﾛﾊﾟﾃｨ</param>
+	<returns>ﾌｫｰﾑｲﾝｽﾀﾝｽ</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetForm(System.String)">
+	<summary>
+ ﾌｫｰﾑIDよりﾌｫｰﾑｲﾝｽﾀﾝｽを取得
+ </summary>
+	<param name="strScreenID">ﾌｫｰﾑID</param>
+	<returns>ﾌｫｰﾑｲﾝｽﾀﾝｽ</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetMidString(System.String,System.Int32,System.Int32)">
+	<summary>
+ 指定文字列必要文字列分だけカットする
+ </summary>
+	<param name="expression">対象文字列</param>
+	<param name="startPos">開始切り出し文字位置</param>
+	<param name="cutLength">必要切り出し文字長さ</param>
+	<returns>指定バイトから切り出した文字</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetLeftString(System.String,System.Int32)">
+	<summary>
+ 指定バイト数以内で返却
+ </summary>
+	<param name="expression">対象文字列</param>
+	<param name="cutLength">必要切り出し文字長さ</param>
+	<returns>指定バイトから切り出した文字</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.PadRightString(System.String,System.Int32)">
+	<summary>
+ 指定バイト数文字で返却
+ </summary>
+	<param name="expression">対象文字列</param>
+	<param name="cutLength">必要切り出し文字長さ</param>
+	<returns>不足分に半角ｽﾍﾟｰｽを増やす</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.GetLenString(System.String)">
+	<summary>
+ 文字列のバイト数計算
+ 与えられた文字列のバイト数を返す。
+ </summary>
+	<param name="expression">文字列</param>
+	<returns>文字列のバイト数</returns>
+</member><member name="M:jp.co.ait.ABCDBC.common.BCCommon.WriteEventLog(System.String,System.String,System.String,System.String,jp.co.ait.common.ABCDBCLog.LogLevel)">
+	<summary>
+ ｲﾍﾞﾝﾄﾛｸﾞ出力
+ </summary>
+	<param name="screenId">画面ID</param>
+	<param name="screenName">画面名称</param>
+	<param name="eventTiming">ｲﾍﾞﾝﾄﾀｲﾐﾝｸﾞ</param>
+	<param name="eventName">ｲﾍﾞﾝﾄ名称</param>
+	<param name="logLevel">ﾛｸﾞﾚﾍﾞﾙ</param>
+</member><member name="T:jp.co.ait.ABCDBC.common.BCCommon">
+	<summary>
+ BC共通クラス
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.common.EncryptDecryptVB.TruncateHash(System.String,System.Int32)">
+	<summary>
+ truncate hash.
+ </summary>
+	<param name="key"></param>
+	<param name="length"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.common.EncryptDecryptVB.#ctor(System.String)">
+	<summary>
+ new class.
+ </summary>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.common.EncryptDecryptVB.EncryptData(System.String)">
+	<summary>
+ encrypt data.
+ </summary>
+	<param name="plaintext"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.common.EncryptDecryptVB.DecryptData(System.String)">
+	<summary>
+ decrypt data.
+ </summary>
+	<param name="encryptedtext"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.frm_SDFG003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SDFG003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.frm_SDFG003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDFG003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDFG003.frm_SDFG003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SDFG003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.frm_STOCKTKFG002_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTKFG002_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.exeBarcodeInput">
+	<summary>
+ exeBarcodeInput
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.RespondToMessage(System.IntPtr@,System.IntPtr@,System.Int32,System.IntPtr,System.IntPtr)">
+	<summary>
+ Respond when press key
+ </summary>
+	<param name="HWnd"></param>
+	<param name="LParam"></param>
+	<param name="Msg"></param>
+	<param name="Result"></param>
+	<param name="WParam"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.frm_STOCKTKFG002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_STOCKTKFG002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.frm_STOCKTKFG002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTKFG002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG002.pnl_Continue_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Continue_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR005.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR005.#ctor(System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR005.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR005.frm_RETR005_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_RETR005_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_RETR005.frm_RETR005_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_EXP003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.#ctor(System.String,System.String,System.String,System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="BarCode"></param>
+	<param name="ItemCode"></param>
+	<param name="ItemName"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.frm_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.pnl_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.pnl_SDQC002_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_SDQC002_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.frm_SDQC002_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDQC002_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC002.frm_IMP002_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_IMP002_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG003.frm_STOCKTKFG003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_STOCKTKFG003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG003.panel_Return_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Return_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG003.panel_Ok_Click(System.Object,System.EventArgs)">
+	<summary>
+ panel_Ok_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_STOCKTKFG003.frm_STOCKTKFG003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_STOCKTKFG003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.#ctor">
+	<summary>
+ Constructor without params
+ </summary>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.#ctor(System.String)">
+	<summary>
+ Constructor with params
+ </summary>
+	<param name="message"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.frm_SDQC003_Load(System.Object,System.EventArgs)">
+	<summary>
+ frm_SDQC003_Load
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.pnl_Action_Click(System.Object,System.EventArgs)">
+	<summary>
+ pnl_Action_Click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.frm_SDQC003_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ frm_SDQC003_Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:jp.co.ait.ABCDBC.frm_SDQC003.frm_SDQC003_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ frm_SDQC003_KeyUp
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

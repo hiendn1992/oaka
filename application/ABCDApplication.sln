@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ABCD", "ABCD\ABCD.vbproj", "{144E63DB-BF3F-4C27-9253-34EACA22999F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ABCDInstall", "ABCDInstall\ABCDInstall.vdproj", "{30184F0C-70BA-4A9C-BEA3-E6BA70ABB245}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144E63DB-BF3F-4C27-9253-34EACA22999F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{144E63DB-BF3F-4C27-9253-34EACA22999F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{144E63DB-BF3F-4C27-9253-34EACA22999F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144E63DB-BF3F-4C27-9253-34EACA22999F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30184F0C-70BA-4A9C-BEA3-E6BA70ABB245}.Debug|Any CPU.ActiveCfg = Release
+		{30184F0C-70BA-4A9C-BEA3-E6BA70ABB245}.Debug|Any CPU.Build.0 = Release
+		{30184F0C-70BA-4A9C-BEA3-E6BA70ABB245}.Release|Any CPU.ActiveCfg = Release
+		{30184F0C-70BA-4A9C-BEA3-E6BA70ABB245}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

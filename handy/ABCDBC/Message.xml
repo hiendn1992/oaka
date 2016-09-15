@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<messageList>
+  <type desc="エラーメッセージ">
+    <module id="W900">
+      <message id="ERR120">Not Existed &#xA; In W830 &#xA; WH !</message>
+      <message id="ERR121">Invalid &#xA; Barcode !</message>
+      <message id="ERR122">Existed &#xA; Barcode !</message>
+      <message id="ERR123">Not Existed &#xA; In MOLD &#xA; WH!</message>
+      <message id="ERR124">Not Existed &#xA; In W900 &#xA; WH!</message>
+      <message id="ERR125">Not Existed &#xA; In Shipment &#xA; List!</message>
+      <message id="ERR142">Invalid &#xA; Rack No !</message>
+      <message id="ERR143">Not Existed &#xA; In : {0}  !</message>
+      <message id="ERR144">Invalid &#xA; Stocktaking &#xA; Req Date !</message>
+      <message id="ERR145">Invalid &#xA; Shipment &#xA; Req No !</message>
+      <message id="ERR146">Not Existed &#xA; In Shipment&#xA; Req No: &#xA; {0} !</message>
+      <message id="ERR147">Invalid &#xA; Pallet No !</message>
+      <message id="ERR165">Not Existed &#xA; In Pallet No: &#xA; {0} !</message>
+      <message id="ERR191">Invalid &#xA; Dest Rack No !</message>
+      <!-- Error Code (New) cuongtk 20150825-->
+      <message id="ERR192">Barcode &#xA; Is &#xA; Shipment!</message>
+      <message id="ERR193">Barcode &#xA; Is &#xA; W900 WH!</message>
+      <message id="ERR194">Barcode &#xA; Is &#xA; MOLD WH!</message>
+      <message id="ERR195">Over &#xA; 25 &#xA; Boxes!</message>
+      <!-- Error Code (New) cuongtk 20150825 -->
+      <message id="MSG121">Please {0} Scan &#xA; Barcode !</message>
+      <message id="MSG122">Please {0} Scan {1} Rack No !</message>
+      <message id="MSG123">Please {0} Scan {1} Pallet No !</message>
+      <message id="MSG124">Please {0} Scan {1} Dest Rack No!</message>
+      <message id="MSG142">From W900 To W9902 </message>
+      <message id="MSG152">Please Input &#xA; Warehouse Code ! </message>
+      <message id="MSG153">Please Input &#xA; Stocktaking &#xA; Req Date !</message>
+      <message id="MSG154">From {0} To {1} ! </message>
+      <message id="MSG155">Move To {0} ! </message>
+      <message id="MSG162">Please &#xA; Input &#xA; Shipment Req No ! </message>
+    </module>
+    <module id="Login">      
+      <message id="MSG001">Please &#xA; Input UserId !</message>
+      <message id="MSG002">Please &#xA; Input Password !</message>
+      <message id="MSG003">UserId &#xA;  At least &#xA; 6 characters !</message>
+      <message id="MSG004">Password &#xA;  At least &#xA; 6 characters !</message>
+      <message id="ERR001">Invalid &#xA; Password !</message>
+      <message id="ERR002">Unregistered &#xA; User Information !</message>
+      <message id="ERR003">Unauthorized &#xA; UserID !</message>
+    </module>
+		<module id="System">
+			<message id="BC901">Can not connect &#xA; to Server !</message>
+			<message id="BC902">System Error !</message>
+			<message id="BC903">検査サーバー接続$エラーです$しばらくしてから$再実行して下さい</message>
+		</module>
+		<module id="UserCommon">
+		</module>
+	</type>
+</messageList>

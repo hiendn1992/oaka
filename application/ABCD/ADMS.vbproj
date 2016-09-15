@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{144E63DB-BF3F-4C27-9253-34EACA22999F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ABCD.My.MyApplication</StartupObject>
+    <RootNamespace>ABCD</RootNamespace>
+    <AssemblyName>ADMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Resources\2014-12-14_150017.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ADMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ADMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Common\ABCDCommon.vb" />
+    <Compile Include="Common\ABCDConst.vb" />
+    <Compile Include="Login_Menu\frm_LGN001.Designer.vb">
+      <DependentUpon>frm_LGN001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Menu\frm_LGN001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Menu\frm_MNU001.Designer.vb">
+      <DependentUpon>frm_MNU001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Menu\frm_MNU001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Menu\frm_MSG001.Designer.vb">
+      <DependentUpon>frm_MSG001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Menu\frm_MSG001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS001.Designer.vb">
+      <DependentUpon>frm_MSS001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS002.Designer.vb">
+      <DependentUpon>frm_MSS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS003.Designer.vb">
+      <DependentUpon>frm_MSS003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS004.Designer.vb">
+      <DependentUpon>frm_MSS004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS005.Designer.vb">
+      <DependentUpon>frm_MSS005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS006.Designer.vb">
+      <DependentUpon>frm_MSS006.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS006.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS007.Designer.vb">
+      <DependentUpon>frm_MSS007.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS007.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS008.Designer.vb">
+      <DependentUpon>frm_MSS008.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS008.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS009.Designer.vb">
+      <DependentUpon>frm_MSS009.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master Business\frm_MSS009.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Popup\frm_POS001.Designer.vb">
+      <DependentUpon>frm_POS001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\frm_POS002.Designer.vb">
+      <DependentUpon>frm_POS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\frm_POS004.Designer.vb">
+      <DependentUpon>frm_POS004.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS004.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\frm_POS005.Designer.vb">
+      <DependentUpon>frm_POS005.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS005.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\frm_POS006.Designer.vb">
+      <DependentUpon>frm_POS006.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS006.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\frm_POS007.Designer.vb">
+      <DependentUpon>frm_POS007.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\frm_POS007.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS001.Designer.vb">
+      <DependentUpon>frm_PRS001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS002.Designer.vb">
+      <DependentUpon>frm_PRS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS003.Designer.vb">
+      <DependentUpon>frm_PRS003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Production Business\frm_PRS003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS001.Designer.vb">
+      <DependentUpon>frm_SHS001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS002.Designer.vb">
+      <DependentUpon>frm_SHS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS003.Designer.vb">
+      <DependentUpon>frm_SHS003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS003_01.Designer.vb">
+      <DependentUpon>frm_SHS003_01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS003_01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS006.Designer.vb">
+      <DependentUpon>frm_SHS006.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shipment Business\frm_SHS006.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS001.Designer.vb">
+      <DependentUpon>frm_STS001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS002.Designer.vb">
+      <DependentUpon>frm_STS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS003.Designer.vb">
+      <DependentUpon>frm_STS003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stocktaking Business\frm_STS003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse Business\frm_WHS002.Designer.vb">
+      <DependentUpon>frm_WHS002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Business\frm_WHS002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouse Business\frm_WHS003.Designer.vb">
+      <DependentUpon>frm_WHS003.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse Business\frm_WHS003.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web References\ABCDService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Login_Menu\frm_LGN001.resx">
+      <DependentUpon>frm_LGN001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Menu\frm_MNU001.resx">
+      <DependentUpon>frm_MNU001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Menu\frm_MSG001.resx">
+      <DependentUpon>frm_MSG001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS001.resx">
+      <DependentUpon>frm_MSS001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS002.resx">
+      <DependentUpon>frm_MSS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS003.resx">
+      <DependentUpon>frm_MSS003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS004.resx">
+      <DependentUpon>frm_MSS004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS005.resx">
+      <DependentUpon>frm_MSS005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS006.resx">
+      <DependentUpon>frm_MSS006.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS007.resx">
+      <DependentUpon>frm_MSS007.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS008.resx">
+      <DependentUpon>frm_MSS008.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master Business\frm_MSS009.resx">
+      <DependentUpon>frm_MSS009.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS001.resx">
+      <DependentUpon>frm_POS001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS002.resx">
+      <DependentUpon>frm_POS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS004.resx">
+      <DependentUpon>frm_POS004.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS005.resx">
+      <DependentUpon>frm_POS005.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS006.resx">
+      <DependentUpon>frm_POS006.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\frm_POS007.resx">
+      <DependentUpon>frm_POS007.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production Business\frm_PRS001.resx">
+      <DependentUpon>frm_PRS001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production Business\frm_PRS002.resx">
+      <DependentUpon>frm_PRS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Production Business\frm_PRS003.resx">
+      <DependentUpon>frm_PRS003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shipment Business\frm_SHS001.resx">
+      <DependentUpon>frm_SHS001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shipment Business\frm_SHS002.resx">
+      <DependentUpon>frm_SHS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shipment Business\frm_SHS003.resx">
+      <DependentUpon>frm_SHS003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shipment Business\frm_SHS003_01.resx">
+      <DependentUpon>frm_SHS003_01.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shipment Business\frm_SHS006.resx">
+      <DependentUpon>frm_SHS006.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stocktaking Business\frm_STS001.resx">
+      <DependentUpon>frm_STS001.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stocktaking Business\frm_STS002.resx">
+      <DependentUpon>frm_STS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stocktaking Business\frm_STS003.resx">
+      <DependentUpon>frm_STS003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse Business\frm_WHS002.resx">
+      <DependentUpon>frm_WHS002.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouse Business\frm_WHS003.resx">
+      <DependentUpon>frm_WHS003.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Web References\ABCDService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2014-12-14_150017.ico" />
+    <Content Include="Resources\ABCDLogo.jpg" />
+    <Content Include="Resources\ABCDTitle.jpg" />
+    <Content Include="Resources\ABCDTitle.png" />
+    <Content Include="Resources\Calendat.png" />
+    <None Include="My Project\app.manifest" />
+    <None Include="Web References\ABCDService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\ABCDService\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.136.151/ABCDWebService/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ABCDService\</RelPath>
+      <UpdateFromURL>http://192.168.136.151/ABCDWebService/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ABCD_ABCDService_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

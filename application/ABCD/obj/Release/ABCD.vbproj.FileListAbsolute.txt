@@ -1,0 +1,215 @@
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\ABCD.exe.config
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ResolveAssemblyReference.cache
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_LGN001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MNU001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSG001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS002.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS003.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS004.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS005.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS006.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS007.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS008.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_MSS009.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.Messages.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.Resources.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS002.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS004.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS005.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS006.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_POS007.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS002.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS003.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS004.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS005.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_PRS006.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_SHS001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_SHS003.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_SHS003_01.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_SHS006.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.SHS004.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_STS001.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_STS002.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_STS003.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_WHS002.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.frm_WHS003.resources
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.vbproj.GenerateResource.Cache
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\ABCD.exe
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\ABCD.XmlSerializers.dll
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\ABCD.pdb
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\ABCD.xml
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\BarcodeLib.dll
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\office.dll
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\Barcode System\Standard\Source\application\ABCD\bin\Release\office.xml
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.exe
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.xml
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.pdb
+D:\Barcode System\Standard\Source\application\ABCD\obj\Release\ABCD.XmlSerializers.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.exe.config
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.exe
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.xml
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.pdb
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.XmlSerializers.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.exe
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.XmlSerializers.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.pdb
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.xml
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\office.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\office.xml
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ResolveAssemblyReference.cache
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_LGN001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MNU001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSG001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS003.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS004.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS005.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS006.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS007.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS008.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS009.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.Messages.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.Resources.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS004.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS005.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS006.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS007.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS003.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS004.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS005.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS006.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS003.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS003_01.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS006.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.SHS004.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS001.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS003.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_WHS002.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_WHS003.resources
+D:\Barcode Source System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.vbproj.GenerateResource.Cache
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.exe.config
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.exe
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.XmlSerializers.dll
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.pdb
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\ABCD.xml
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\BarcodeLib.dll
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\office.dll
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Vbe.Interop.dll
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\bin\Release\office.xml
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ResolveAssemblyReference.cache
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_LGN001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MNU001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSG001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS003.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS004.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS005.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS006.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS007.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS008.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_MSS009.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.Messages.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.Resources.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS004.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS005.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS006.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_POS007.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS003.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS004.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS005.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_PRS006.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS003.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS003_01.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_SHS006.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.SHS004.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS001.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_STS003.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_WHS002.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.frm_WHS003.resources
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.vbproj.GenerateResource.Cache
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.exe
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.xml
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.pdb
+D:\Barcode System Management\Abcd_HaiDuong\01. Source\application\ABCD\obj\Release\ABCD.XmlSerializers.dll
+D:\oka_src\application\ABCD\bin\Release\ABCD.exe.config
+D:\oka_src\application\ABCD\bin\Release\ABCD.exe
+D:\oka_src\application\ABCD\bin\Release\ABCD.XmlSerializers.dll
+D:\oka_src\application\ABCD\bin\Release\ABCD.pdb
+D:\oka_src\application\ABCD\bin\Release\ABCD.xml
+D:\oka_src\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\oka_src\application\ABCD\bin\Release\office.dll
+D:\oka_src\application\ABCD\bin\Release\Microsoft.Vbe.Interop.dll
+D:\oka_src\application\ABCD\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\oka_src\application\ABCD\bin\Release\office.xml
+D:\oka_src\application\ABCD\obj\Release\ResolveAssemblyReference.cache
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_LGN001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MNU001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSG001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS004.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS005.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS006.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS007.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS008.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_MSS009.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_OA_MSS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_OA_MSS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.Messages.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.Resources.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS004.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS005.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS006.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_POS007.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS004.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS005.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_PRS006.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_SHS001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_SHS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_SHS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_SHS003_01.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_SHS006.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.SHS004.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_STS001.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_STS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_STS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_WHS002.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.frm_WHS003.resources
+D:\oka_src\application\ABCD\obj\Release\ABCD.vbproj.GenerateResource.Cache
+D:\oka_src\application\ABCD\obj\Release\ABCD.exe
+D:\oka_src\application\ABCD\obj\Release\ABCD.xml
+D:\oka_src\application\ABCD\obj\Release\ABCD.pdb
+D:\oka_src\application\ABCD\obj\Release\ABCD.XmlSerializers.dll

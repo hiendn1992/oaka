@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BSWXmlManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--DB関連-->
+  <DB>
+    <!-- SQLSERVER接続 ﾕｰｻﾞｰ -->
+    <USER_ID>oka</USER_ID>
+    <!-- SQLSERVER接続 ﾊﾟｽﾜｰﾄﾞ -->
+    <PASSWORD>oka123</PASSWORD>
+    <!-- SQL SERVER NAME/IP -->
+    <DATASORCE>192.168.136.121</DATASORCE>
+    <!-- SQL DATABASE NAME -->
+    <CATALOG>ABCD_HD_LR</CATALOG>
+    <!-- SQL LOCK_TIMEOUT -->
+    <LOCK_TIMEOUT>60000</LOCK_TIMEOUT>
+    <!--コマンドが例外で実行を終了するまでに実行可能な秒数を設定-->
+    <COMMAND_TIMEOUT>6000</COMMAND_TIMEOUT>
+    <!--コネクション接続の最長存続期間[秒]を設定-->
+    <CONNECTION_LIFETIME>0</CONNECTION_LIFETIME>
+  </DB>
+
+  <!--ﾒｯｾｰｼﾞ関連-->
+  <MSG>
+    <!--ﾒｯｾｰｼﾞﾌｧｲﾙ名-->
+    <FILE_NAME>massage.csv</FILE_NAME>
+
+    <!--ﾒｯｾｰｼﾞﾌｧｲﾙ格納ﾃﾞｨﾚｸﾄﾘ-->
+    <!--未設定の場合は、ｶﾚﾝﾄﾃﾞｨﾚｸﾄﾘとする-->
+    <FILE_DIR></FILE_DIR>
+  </MSG>
+
+  <!--ﾛｸﾞ関連-->
+  <LOG>
+    <!--ﾛｸﾞﾌｧｲﾙ名(拡張子[.log]は設定しないこと)-->
+    <FILE_NAME>ABCD_SV</FILE_NAME>
+
+    <!--ﾛｸﾞ出力ﾃﾞｨﾚｸﾄﾘ-->
+    <!--未入力の場合は、ｶﾚﾝﾄﾃﾞｨﾚｸﾄﾘに出力-->
+    <FILE_DIR>C:\Log\app\</FILE_DIR>
+
+    <!--ﾛｸﾞﾚﾍﾞﾙ -->
+    <!--
+		  1: 情報(LevelDump)
+		  2: 情報(LevelDebug)
+		  3: 情報(LevelInformation)
+		  4: 成功/情報(LevelTrace)
+		  5: 開始/終了(LevelOperation)
+		  6: 警告(LevelWarning)
+		  7: ｴﾗｰ(LevelError)
+		-->
+    <LOG_LEVEL>2</LOG_LEVEL>
+  </LOG>
+
+
+    <!-- SQLローダー関連 -->
+    <SQLLDR>
+        <!-- SQLローダー -->
+        <EXE>E:\SQLSERVER\product\10.2.0\Db_1\BIN\SQLLDR.EXE</EXE>
+        <!-- CONTROLファイル格納場所 -->
+        <LOD>E:\LWH\Batch\bin\lod</LOD>
+        <!-- BADファイル出力場所 -->
+        <BAD>F:\Log\Loader</BAD>
+        <!-- DISファイル出力場所 -->
+        <DIS>F:\Log\Loader</DIS>
+        <!-- LOGファイル出力場所 -->
+        <LOG>F:\Log\Loader</LOG>
+    </SQLLDR>
+
+  <!-- ﾊﾞｯﾁﾌﾟﾛｸﾞﾗﾑ定義xml関連 -->
+  <LWHBATCH>
+    <!-- ﾊﾞｯﾁﾌﾟﾛｸﾞﾗﾑ定義xmlﾃﾞｨﾚｸﾄﾘ -->
+    <XMLFILE_DIR></XMLFILE_DIR>
+    <!-- ﾊﾞｯﾁﾌﾟﾛｸﾞﾗﾑ定義xmlﾌｧｲﾙ名 -->
+    <XMLFILE_NAME>LWHBatch.xml</XMLFILE_NAME>
+  </LWHBATCH>
+
+
+  <ZAIKOLIST>
+    <!-- SK品ｻｲｽﾞ在庫ﾘｽﾄ(CSV)の指定ﾌｧｲﾙ名 -->
+    <SK_HIN_FILE>SK品ｻｲｽﾞ在庫ﾘｽﾄ(CSV)</SK_HIN_FILE>
+
+    <!-- SK品ｻｲｽﾞ在庫ﾘｽﾄ(CSV)の作成場所 -->
+    <SK_HIN_PATH>F:\HULFT\SENDDATA\</SK_HIN_PATH>
+  </ZAIKOLIST>
+
+
+  <!--BC関連-->
+  <!--BC用ﾛｸﾞ情報-->
+  <BC_LOG>
+    <!--ﾛｸﾞﾌｧｲﾙ名(拡張子[.log]は設定しないこと)-->
+    <FILE_NAME>LWHBC</FILE_NAME>
+    <FILE_NAME_BC>LWHBC_HT</FILE_NAME_BC>
+    <!--ﾃﾞｨﾚｸﾄﾘ-->
+    <!--未入力の場合は、ｶﾚﾝﾄﾃﾞｨﾚｸﾄﾘとする-->
+    <FILE_DIR>\SDCard\BC\Log\</FILE_DIR>
+    <!--ﾛｸﾞﾚﾍﾞﾙ-->
+    <LOG_LEVEL>2</LOG_LEVEL>
+    <!--ﾊﾝﾃﾞｨ内ﾛｸﾞ世代管理の日数-->
+    <DELETE_INTERVAL>3</DELETE_INTERVAL>
+  </BC_LOG>
+  
+  <!--ﾒｯｾｰｼﾞ関連-->
+  <BC_MSG>
+    <!--ﾒｯｾｰｼﾞﾌｧｲﾙ名-->
+    <FILE_NAME>message.xml</FILE_NAME>
+    <!--ﾃﾞｨﾚｸﾄﾘ-->
+    <!--未設定の場合は、ｶﾚﾝﾄﾃﾞｨﾚｸﾄﾘとする-->
+    <FILE_DIR></FILE_DIR>
+  </BC_MSG>
+
+
+  <!--ｴﾌ用PCﾌﾟﾘﾝﾀｰ情報XMLﾌｧｲﾙ名称-->
+  <PRINT_XML>
+    <!--XMLﾌｧｲﾙ名称-->
+    <FILE_NAME>PrinterInfo.xml</FILE_NAME>
+  </PRINT_XML>
+
+  <!--ﾊﾝﾃﾞｨ各端末個別設定情報XMLﾌｧｲﾙ名称-->
+  <LWHBC_HT_XML>
+    <!--XMLﾌｧｲﾙ名称-->
+    <FILE_NAME>LWHBC_HT.xml</FILE_NAME>
+    <!--ﾃﾞｨﾚｸﾄﾘ(末尾に"/"を設定すること)-->
+    <FILE_DIR>D:\oka_src\service\ABCDWebService\xml</FILE_DIR>
+  </LWHBC_HT_XML>
+  
+</BSWXmlManager>
